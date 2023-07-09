@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_x="2sp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3sp"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/imgUsr2"
+            android:layout_width="100dp"
+            android:layout_height="76dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lbltitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melanie León"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/lblvolumen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melanie León"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblyear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melanie León"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
